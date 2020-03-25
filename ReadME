@@ -2,5 +2,11 @@ Open formtrial.html to see the program.
 
 This program is created with HTML, HTML5, CSS, Bootstrap and JavaScript.
 
-All the data is stored to firebase.google.com at rareinstructor69@gmail.com Public project Poll-program.
+All the data is stored to firebase.google.com at rareinstructor69@gmail.com Public project Poll-pro.
+
+localhost file on irebase.google.com:
+
+console.firebase.google.com/u/2/project/poll-pro/database/poll-pro/data
+
+
 
