@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap\js\bootstrap.js"></script>
+    <script src="bootstrap\js\bootstrap.bundle.js"></script>
+    <script src="bootstrap\js\bootstrap.min.js"></script>
+  <script src="bootstrap\js\bootstrap.bundle.min.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Acme Web Design</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="csstrialtri.css">
+</head>
+<body>
+  
+  <h2>Your vote can make a difference!
+    <p>Vote for you favourite nominee</p>
+</h2>
+<form id="voteform">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Your Email address</label>
+      <input type="email" class="form-control"  placeholder="name@example.com" id="user-email" required>
+    </div>
+    <div class="form-group">
+      <label for="FormControlSelect1">Vote for the nominees</label>
+      <select class="form-control" id="FormControlSelect1" required>
+        <option>richard@whitehatjr.com</option>
+        <option>sriram@whitehatjr.com</option>
+        <option>sriram@whitehatjr.com</option>
+        <option>richard@whitehatjr.com</option>
+        <option>rareinstructor69@gmail.com</option>
+      </select>
+    </div>
+    <div class="form-group">
+        <p>Please answer some questions of the survey below</p>
+      <label for="FormControlSelect2">Q1. Do you think we need to have free lunch meals in our school canteen for the
+        kids who are very poor?
+       </label>
+      <select multiple class="form-control" id="FormControlSelect2">
+        <option> - YES</option>
+        <option>- NO</option>
+      </select>
+
+      <label for="FormControlSelect3">Q2. Would you be willing to contribute a small amount every month for such a
+        program?
+       </label>
+      <select multiple class="form-control" id="FormControlSelect3">
+        <option>- YES</option>
+        <option>- NO</option>
+           
+      </select>
+
+      <p>
+    </select>
+
+    <label for="FormControlSelect4">Q3. How much per month would you be willing to pay?
+        
+     </label>
+    <select multiple class="form-control" id="FormControlSelect4">
+      <option>- 100</option>
+      <option>- 500</option>
+      <option>1000</option>
+      <option>More</option>
+         
+    </select>
+    </p>
+    </div>
+    <div class="form-group">
+      <label for="FormControlTextarea1">Any more commnents for the upcoming elections?</label>
+      <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary btn-block"  id="submit" required>
+        </div>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="maintrial.js"></script>
+</body>
+</html>
