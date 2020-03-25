@@ -8,5 +8,10 @@ localhost file on irebase.google.com:
 
 console.firebase.google.com/u/2/project/poll-pro/database/poll-pro/data
 
+Make a new folder bootstrap
+Make folders js and css inside it
+Cut all js folders into the js folder and
+cut al css folders into the css folder to see best results.
+
 
 
